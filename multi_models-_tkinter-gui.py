@@ -613,7 +613,7 @@ class MLPredictor:
 class MultiModelStockPredictorGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("🚀 Advanced Multi-Model Stock Predictor")
+        self.root.title("🚀 Claude AI generated Multi-Model Stock Predictor - implemented by Lee Almasy")
         self.root.geometry("1600x1000")
         self.root.configure(bg='#2c3e50')
         
@@ -1858,4 +1858,5 @@ def quick_multi_predict(symbol="AAPL", days=10, models=['markov', 'lstm']):
 
 # Example usage:
 # quick_multi_predict("TSLA", 5, ['markov', 'lstm'])
+
 # quick_multi_predict("SPY", 20, ['markov', 'ensemble'])
