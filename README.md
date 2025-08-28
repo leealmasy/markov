@@ -15,3 +15,6 @@ from collections import defaultdict, Counter
 from datetime import datetime, timedelta
 import threading
 import warnings
+
+I included both the source code and a windows executable
+
