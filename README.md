@@ -16,5 +16,6 @@ from datetime import datetime, timedelta
 import threading
 import warnings
 
-I included both the source code and a windows executable
+i'd suggest using pyinstaller to conver the sources code to a Windows executable
+
 
